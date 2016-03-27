@@ -1,10 +1,11 @@
 angular
     .module('app')
     .controller('MainController', MainController);
-        
-MainController.$inject = ['pageTitle'];        
-function MainController(pageTitle) {
+    
+MainController.$inject = ['uploadS3'];
+             
+function MainController(uploadS3) {
     var vm = this;
     vm.teste = "hahah";
-    pageTitle.setTitle('Main');
+    uploadS3.json('a.json', vm.teste);
 }

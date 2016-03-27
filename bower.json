@@ -1,0 +1,27 @@
+{
+  "name": "blogs3",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Emerson Matsumoto <emersonmatsumoto@github.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/emersonmatsumoto/blogs3",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "textAngular": "^1.5.0",
+    "angular": "^1.5.3",
+    "angular-bootstrap": "^1.2.5",
+    "bootstrap": "^3.3.6",
+    "aws-sdk": "aws-sdk-js#^2.2.47",
+    "angular-material": "^1.0.6",
+    "angular-route": "^1.5.3"
+  }
+}
